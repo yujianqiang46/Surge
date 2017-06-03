@@ -11,7 +11,7 @@ pip install https://github.com/shadowsocks/shadowsocks/archive/master.zip
 #Install chacha20 Encryption Method
 apt-get install python-m2crypto build-essential
 wget https://github.com/jedisct1/libsodium/releases/download/1.0.12/libsodium-1.0.12.tar.gz
-tar xf libsodium-1.0.10.tar.gz && cd libsodium-1.0.10
+tar xf libsodium-1.0.12.tar.gz && cd libsodium-1.0.12
 ./configure && make && make check && make install
 ldconfig
 
