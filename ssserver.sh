@@ -1,11 +1,11 @@
 #! /bin/bash
 
 #Install Shadowsocks-Python server for Debian or Ubuntu
-#Eaable TCP Fast Open, Linux Kernel version require 3.7+
+#Enable TCP Fast Open, Linux Kernel version require 3.7+
 
 #Install Shadowsocks-Python
 apt-get update
-apt-get install python-pip 
+apt-get install -y python-pip 
 pip install https://github.com/shadowsocks/shadowsocks/archive/master.zip
 
 #Install chacha20 Encryption Method
